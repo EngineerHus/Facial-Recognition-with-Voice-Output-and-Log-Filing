@@ -10,5 +10,5 @@ This takes the images captured from ```CreatingDataSets.py``` and trains the mod
 
 **Recognition.py**
 
-This is where the facial recognition happens. It compares the similarity of pre-existing histogram with a new histogram and if the outcome of ```conf``` is below 65, the face will be recognised. Once the face is recognised it will save the event at ```WhosAtTheDoor.txt``` with the user ID as well as the time and date
+This is where the facial recognition happens. It compares the similarity of pre-existing histogram with a new histogram and if the outcome of ```conf``` is below 65, the face will be recognised. Once the face is recognised it will save the event at ```WhosAtTheDoor.txt``` with the user ID as well as the time and date. Additionally, it will output a voice stating who is at the door.
 
